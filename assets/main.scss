@@ -12,9 +12,13 @@
     margin-bottom: 20px;
 }
 
-/** Remove name from footer (so it only shows once)*/
+
+/** Remove name from footer*/
+.footer-heading {
+  display: none;
+}
 .footer-col-1 {
-  display: " ";
+  visibility: hidden;
 }
 
 /** Remove "Posts" head from layout: home */
