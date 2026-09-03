@@ -27,6 +27,8 @@ url: "ThomasWarford.github.io" # the base hostname & protocol for your site, e.g
 
 github_username:  ThomasWarford
 linkedin_username:  ThomasWarford
+orcid: 0009-0000-6039-2083
+scholar: https://scholar.google.co.uk/citations?user=zTiHyRcAAAAJ&hl=en
 
 # Build settings
 theme: minima
