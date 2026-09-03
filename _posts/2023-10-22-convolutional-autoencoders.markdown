@@ -2,12 +2,11 @@
 layout: post
 title:  "Discovering Digits with Convolutional Autoencoders"
 date:   2023-10-22
+description: "An exploration of unsupervised representation learning and latent space clustering on MNIST digits using convolutional autoencoders in PyTorch."
 image: assets/images/cae/tsne.png
 ---
 
-## Discovering Digits with Convolutional Autoencoders
-
-| ![tsne representation of mnist digits]({{site.baseurl}}/assets/images/cae/tsne.png) |
+| ![t-SNE latent space representation of MNIST digits learned by convolutional autoencoder]({{site.baseurl}}/assets/images/cae/tsne.png) |
 |:--:| 
 | *Each colour corresponds with a different digit — the seperation between digits has been learned!* |
 
@@ -108,7 +107,7 @@ Here are the resulting reproductions of letters:
 <table>
   <tr>
     <td><img src="{{site.baseurl}}/assets/images/cae/7_targ.png" alt="original 7" style="width: 100%; image-rendering: pixelated;"/></td>
-    <td><img src="{{site.baseurl}}/assets/images/cae/7_recon.png" alt="reconstructued 7" style="width: 100%; image-rendering: pixelated;"/></td>
+    <td><img src="{{site.baseurl}}/assets/images/cae/7_recon.png" alt="reconstructed 7" style="width: 100%; image-rendering: pixelated;"/></td>
   </tr>
   <tr>
     <td colspan="2">Original and reproduction of the letter 7.</td>
@@ -127,7 +126,7 @@ Here are the resulting reproductions of letters:
 
 Now our autoencoder is trained, we can use the encoder to “vectorize” images. [t-SNE](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding) let’s us visualize these length-128 vectors in 2 dimensions. Here is the resulting plot, where each colour represents a different digit.
 
-![tsne representation of mnist digits]({{site.baseurl}}/assets/images/cae/tsne.png)
+![t-SNE 2D projection of learned digit clusters]({{site.baseurl}}/assets/images/cae/tsne.png)
 
 There we go! The separation between different digits is quite impressive, considering we never told the network the labels explicitly.
 

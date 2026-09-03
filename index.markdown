@@ -1,5 +1,7 @@
 ---
 layout: page
+title: About
+description: "PhD student at the University of Cambridge, focused on using machine learning to accelerate the development of materials."
 ---
 
 PhD student at the University of Cambridge, working on machine learning for atomistic simulation in the group of Gábor Csányi. His current research is focused on improving foundational machine learned potentials by incorporating long-range physics and electric field reponse in a principled way.

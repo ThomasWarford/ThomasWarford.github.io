@@ -19,21 +19,38 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Thomas Warford
+tagline: PhD Researcher in Machine Learning & Materials, Cambridge
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   PhD student at the University of Cambridge, focused on using machine learning to accelerate the development of materials.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "ThomasWarford.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://thomaswarford.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+author:
+  name: Thomas Warford
+
+social:
+  name: Thomas Warford
+  links:
+    - https://scholar.google.co.uk/citations?user=zTiHyRcAAAAJ&hl=en
+    - https://orcid.org/0009-0000-6039-2083
+    - https://github.com/ThomasWarford
+    - https://www.linkedin.com/in/ThomasWarford
 
 github_username:  ThomasWarford
 linkedin_username:  ThomasWarford
 orcid: 0009-0000-6039-2083
 scholar: https://scholar.google.co.uk/citations?user=zTiHyRcAAAAJ&hl=en
 
+# Navigation settings
+header_pages:
+  - blog.markdown
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

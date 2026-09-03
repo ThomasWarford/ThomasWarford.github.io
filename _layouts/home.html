@@ -17,7 +17,8 @@ layout: default
         <div style="display: flex; align-items: center; gap: 1.5rem;">
           {% if post.image %}
             <img src="{{ post.image | relative_url }}"
-                alt=""
+                alt="{{ post.title | escape }}"
+                loading="lazy"
                 style="width: 200px; height: 130px; object-fit: cover;">
           {% endif %}
           <div>

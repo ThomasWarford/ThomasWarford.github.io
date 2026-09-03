@@ -5,4 +5,5 @@
 layout: home
 title: Blog
 permalink: /blog/
+description: "Articles and notes on machine learning, atomistic simulations, and scientific computing by Thomas Warford."
 ---
