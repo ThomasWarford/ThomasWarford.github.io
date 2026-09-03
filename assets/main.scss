@@ -12,13 +12,17 @@
     margin-bottom: 20px;
 }
 
-
-/** Remove name from footer*/
-.footer-heading {
-  display: none;
+.footer-col-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-left: 0;
 }
-.footer-col-1 {
-  visibility: hidden;
+
+.footer-col {
+  float: none;
+  width: auto;
+  padding: 0;
 }
 
 /** Remove "Posts" head from layout: home */
