@@ -1,7 +1,5 @@
 ---
 layout: page
-title: About
-permalink: /about/
 ---
 
 PhD student at the University of Cambridge, working on machine learning for atomistic simulation in the group of Gábor Csányi. His current research is focused on improving foundational machine learned potentials by incorporating long-range physics and electric field reponse in a principled way.
