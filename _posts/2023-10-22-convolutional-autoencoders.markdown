@@ -2,7 +2,7 @@
 layout: post
 title:  "Discovering Digits with Convolutional Autoencoders"
 date:   2023-10-22
-categories:
+image: assets/images/cae/tsne.png
 ---
 
 ## Discovering Digits with Convolutional Autoencoders
