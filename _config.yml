@@ -26,8 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thomaswarford.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-author:
-  name: Thomas Warford
+author: Thomas Warford
 
 social:
   name: Thomas Warford
@@ -44,6 +43,7 @@ scholar: https://scholar.google.co.uk/citations?user=zTiHyRcAAAAJ&hl=en
 
 # Navigation settings
 header_pages:
+  - publications.markdown
   - blog.markdown
 
 # Build settings
