@@ -21,7 +21,7 @@
 title: Thomas Warford
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  PhD student at the University of Cambridge, focused on using artificial intelligence to accelerate materials discovery.
+  PhD student at the University of Cambridge, focused on using machine learning to accelerate the development of materials.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "ThomasWarford.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
